@@ -5,6 +5,8 @@
 } */
 
 .germany {
+  height: 20px;
+  width: 100px;
   border: solid 2px;
   margin: 0;
   padding: 0;
@@ -25,26 +27,36 @@
   background-color: yellow;
 }
 
-#france {
+.germany:hover ~ #g1 {
+  background-color: purple;
+}
+.germany:hover ~ #g2 {
+  background-color: white;
+}
+.germany:hover ~ #g3 {
+  background-color: green;
+}
+
+
+.france {
   display: flex;
   height: 100px;
   column-gap: 0px;
 }
 
-
 #f1 {
   color: blue;
-  background-color: black;
+  background-color: blue;
 }
 
 #f2 {
   color: white;
-  background-color: red;
+  background-color: white;
 }
 
 #f3 {
-  color: yellow;
-  background-color: yellow;
+  color: red;
+  background-color: red;
 }
 
 
