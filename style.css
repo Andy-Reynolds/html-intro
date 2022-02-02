@@ -1,0 +1,78 @@
+/* header {
+  background-color: aqua;
+  position: relative;
+  left: 50px;
+} */
+
+.germany {
+  border: solid 2px;
+  margin: 0;
+  padding: 0;
+}
+
+#g1 {
+  color: black;
+  background-color: black;
+}
+
+#g2 {
+  color: red;
+  background-color: red;
+}
+
+#g3 {
+  color: yellow;
+  background-color: yellow;
+}
+
+#france {
+  display: flex;
+  height: 100px;
+  column-gap: 0px;
+}
+
+
+#f1 {
+  color: blue;
+  background-color: black;
+}
+
+#f2 {
+  color: white;
+  background-color: red;
+}
+
+#f3 {
+  color: yellow;
+  background-color: yellow;
+}
+
+
+header {
+  background-color: aqua;
+  position: absolute;
+  left: 50px;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1:hover {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+p:onclick {
+  text-decoration: underline;
+  color: green;
+}
+
+button:onclick {
+  text-decoration: underline;
+  color: green;
+}
